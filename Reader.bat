@@ -1,0 +1,39 @@
+echo off
+echo ALLUSERSPROFILE %ALLUSERSPROFILE% >> Report.txt
+echo APPDATA %APPDATA% >> Report.txt
+echo CD %CD% >> Report.txt
+echo CLIENTNAME %CLIENTNAME% >> Report.txt
+echo CMDCMDLINE %CMDCMDLINE% >> Report.txt
+echo CMDEXTVERSION %CMDEXTVERSION% > Report.txt
+echo COMMONPROGRAMFILES %COMMONPROGRAMFILES% >> Report.txt
+echo COMPUTERNAME %COMPUTERNAME% >> Report.txt
+echo COMSPEC %COMSPEC% >> Report.txt
+echo DATE %DATE% >> Report.txt
+echo ERRORLEVEL %ERRORLEVEL% >> Report.txt
+echo HOMEDRIVE %HOMEDRIVE% >> Report.txt
+echo HOMEPATH %HOMEPATH% >> Report.txt
+echo HOMESHARE %HOMESHARE% >> Report.txt
+echo LOCALAPPDATA %LOCALAPPDATA% >> Report.txt
+echo LOGONSERVER %LOGONSERVER% >> Report.txt
+echo NUMBER_OF_PROCESSORS %NUMBER_OF_PROCESSORS% >> Report.txt
+echo OS %OS% >> Report.txt
+echo PATH %PATH% >> Report.txt
+echo PATHEXT %PATHEXT% >> Report.txt
+echo PROCESSOR_ARCHITECTURE %PROCESSOR_ARCHITECTURE% >> Report.txt
+echo PROCESSOR_IDENTIFIER %PROCESSOR_IDENTIFIER% >> Report.txt
+echo PROCESSOR_LEVEL %PROCESSOR_LEVEL% >> Report.txt
+echo PROCESSOR_REVISION %PROCESSOR_REVISION% >> Report.txt
+echo PROGRAMDATA %PROGRAMDATA% >> Report.txt
+echo PROGRAMFILES %PROGRAMFILES% >> Report.txt
+echo PROMPT %PROMPT% >> Report.txt
+echo SESSIONNAME %SESSIONNAME% >> Report.txt
+echo SYSTEMDRIVE %SYSTEMDRIVE% >> Report.txt
+echo SYSTEMROOT %SYSTEMROOT% >> Report.txt
+echo TEMP %TEMP% >> Report.txt
+echo TIME %TIME% >> Report.txt
+echo USERDOMAIN %USERDOMAIN% >> Report.txt
+echo USERNAME %USERNAME% >> Report.txt
+echo USERPROFILE %USERPROFILE% >> Report.txt
+echo WINDIR %WINDIR% >> Report.txt
+echo Done!
+pause
